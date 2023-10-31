@@ -19,3 +19,7 @@
     font-size: 45px;
     font-weight: 500;
 }
+/*CSS for span*/
+.hero h1 span{
+    color: #e94225;
+}
