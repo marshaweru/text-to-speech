@@ -13,3 +13,9 @@
     background: linear-gradient(45deg, #1ca14f, #2ec8d3);
 }
 /*Styling for title h1*/
+.hero h1{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 500;
+}
