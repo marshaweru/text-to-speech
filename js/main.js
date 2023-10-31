@@ -11,7 +11,12 @@ window.speechSynthesis.onvoiceschanged = () => {
     speech.voice = voices[0];//By default it will speak in first voice 
     //Display voices in dropdown
     voices.forEach((voice, i) => (voiceSelect.options[i] = new Option(voice.name, i)));
-}
+};
+
+//Change event on dropdown, to allow selection of choice voice
+voiceSelect.addEventListener("change", () =>{
+    speech.voice = voices[voiceSelect.value];
+});
 
 document.querySelector("button").addEventListener("click", () =>{
     speech.text = document.querySelector("textarea").value;
