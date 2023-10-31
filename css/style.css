@@ -25,6 +25,40 @@
 }
 /*CSS for span*/
 .hero h1 span{
-    color: #e94225;
+    color: #9b2c69;
 }
 /*Styling for textarea*/
+textarea{
+    height: 250px;
+    width: 600px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+    background: #bcbbd3;
+    padding: 20px;
+    color: #fff;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #161820fa
+}
+/*CSS to align button and select box on class name row*/
+.row{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    background: #9b2c69;
+    font-size: 16px;
+}
