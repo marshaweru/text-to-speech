@@ -59,6 +59,30 @@ button{
     outline: 0;
     cursor: pointer;
     color: #fff;
+    align-items: center;
     background: #9b2c69;
     font-size: 16px;
+    display: flex;
+}
+/*CSS to align icon*/
+button img{
+    width: 15px;
+    margin-right: 10px;
+}
+/*CSS for dropdown select box*/
+select{
+    background: #bcbbd3;
+    border: 0;
+    border-radius: 35px;
+    height: 50px;
+    padding: 0 20px;
+    color: #251717;
+    flex: 1;
+    outline: 0;
+    appearance: none;/*To hide dropdown icon to replace it with image as below*/
+    background-image: url(images\dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);/*Will be on the right side and 20px from the right side*/
+    background-position-y: 20px;
 }
